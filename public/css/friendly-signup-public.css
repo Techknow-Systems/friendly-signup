@@ -1,0 +1,237 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ /** ----
+  * DESKTOP STYLES 
+  */
+
+/* Style the slide in box */
+#fsup-slidein-signup {
+    width: 470px;
+    height: 130px;
+    padding: 20px 35px;
+    border-top: 3px solid #999;
+    border-left: 3px solid #999;
+    position: fixed;
+    bottom: 0;
+    right: -600px;
+    z-index: 990;
+    background: #000;
+}
+
+#fsup-slidein-signup form {
+    margin: 0 0 10px -3px ;
+}
+
+#fsup-slidein-signup form input[type="email"],
+#fsup-slidein-signup form input[type="submit"] {
+    font-size: 18px;
+    font-family: 'PT Sans', san-serif;
+    height: 35px;
+    width: 30%;
+}
+
+#fsup-slidein-signup form input[type="email"] {
+    width: 60%;
+}
+
+#fsup-slidein-signup input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    background: #db393e;
+    color: #fff;
+    border: 0px;
+}
+
+#fsup-slidein-signup input[type="submit"]:hover {
+    background: #fb5257;
+}
+
+/* Style the box links */
+#fsup-slidein-signup p {
+    font-size: 16px;
+    line-height: 130%;
+    color: #ccc;
+    margin-bottom: 7px;
+}
+
+#fsup-slidein-signup h3 {
+    color: #eee;
+    font-size: 28px;
+    margin: 0 20px 10px 0;
+}
+
+/* Style the close button */
+#fsup-slidein-signup a.fsup-slidein-close {
+    background: transparent url(../images/slidein-close.png) no-repeat top left;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 15px;
+}
+
+/* Error & Success Messages */
+.upltv-slidein-error,
+.upltv-slidein-success {
+    margin-top: 0px !important;
+    margin-bottom: 7px !important;
+    font-size: 18px !important;
+}
+
+.upltv-slidein-error {
+    color: #f77376 !important;
+    line-height: 110% !important;
+}
+
+.upltv-slidein-success {
+    margin-top: 0 !important;
+    color: #EAC258 !important;
+}
+
+
+/* POPUP */
+/* Outer */
+.fsup-popup-overlay {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background: rgba(0,0,0,0.8);
+    z-index: 1000;
+}
+
+/* Inner */
+.fsup-popup-signup {
+    max-width: 700px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.fsup-popup-title {
+    padding: 30px 40px 20px;
+    font-family: 'Roboto Condensed', san-serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+    line-height: 130%;
+    text-align: center;
+}
+
+.fsup-popup-before-text {
+    text-align: center;
+    font-family: 'PT Sans, san-serif';
+    font-size: 1.5em;
+    color: #ccc;
+}
+
+.fsup-popup-body {
+    background: transparent;
+    font-family: 'PT Sans', san-serif;
+    padding: 15px 40px 30px 65px;
+    font-size: 19px;
+    line-height: 130%;
+    height: 150px;
+}
+
+.fsup-popup-error {
+    margin-top: 10px;
+    color: #f77376;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fsup-popup-success {
+    margin-top: 20px;
+    color: #EAC258;
+    font-size: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+#fsuo-popup-mc-subscribe {
+    margin-top: 20px;
+}
+
+#fsup-popup-mc-subscribe input[type="input"],
+#fsup-popup-mc-subscribe input[type="email"],
+#fsup-popup-mc-subscribe input[type="submit"] {
+    font-size: 21px;
+    font-family: 'PT Sans', san-serif;
+    padding: 0 20px;
+    height: 50px;
+}
+
+#fsup-popup-mc-subscribe input[type="email"] {
+    width: 65%;
+    margin: 0 2%;
+}
+
+#fsup-popup-mc-subscribe input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    width: 29%;
+    background: #db393e;
+    color: #fff;
+    border: 0px;
+}
+
+#fsup-popup-mc-subscribe input[type="submit"]:hover {
+    background: #fb5257;
+}
+
+
+/* Close Button */
+.fsup-popup-close {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: transparent url(../images/popup-close.png) no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+/** ----
+ * MOBILE STYLES
+ */
+
+@media screen and (max-width: 760px) {
+
+    h3 {
+        font-size: 35px;
+        line-height: 120%;
+    }
+
+    .fsup-popup-close {
+        width: 50px;
+        height: 50px;
+        top: 20px;
+        right: 20px;
+    }
+
+    #fsup-popup-mc-subscribe input[type="email"],
+    #fsup-popup-mc-subscribe input[type="submit"] {
+        width: 100%;
+        margin: 5px 0 0 0;
+    }
+
+    .fsup-popup-error {
+        font-size: 17px;
+        line-height: 120%;
+    }
+}
+ 

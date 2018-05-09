@@ -1,0 +1,5 @@
+/** -----
+ * Popup Sign Up CSS edits from the Popup tab on the Plugin Settings Page
+ */
+
+#fsup-popup-body input[type="submit"]{background-color: #dd3333;transition: background-color 1s ease;} #fsup-slidein-mc-subscribe input[type="submit"]:hover{background-color: #dd5f5f;}

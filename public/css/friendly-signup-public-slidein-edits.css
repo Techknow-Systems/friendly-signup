@@ -1,0 +1,5 @@
+/** -----
+ * Slide In Sign Up CSS edits from the Slide In tab on the Plugin Settings Page
+ */
+
+#fsup-slidein-signup h3{padding: 0;}#fsup-slidein-mc-subscribe input[type="submit"]{background-color: #1e73be;transition: background-color 1s ease;} #fsup-slidein-mc-subscribe input[type="submit"]:hover{background-color: #27abf7;}

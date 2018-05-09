@@ -1,0 +1,32 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Increase the margins between the sections */
+.settings_page_friendly-signup h2 {
+ 	margin: 1em 0;
+}
+
+/* Style the text under the options fields that give more info about the option */
+.fsup_settings_field_subtext {
+ 	color: #999;
+ 	margin: 2px 0 0 2px !important;
+ 	font-size: 13px !important;
+}
+
+.fsup-tab-content {
+	margin-left: 0.3em;
+}
+
+.fsup-adm-colour-picker-container {
+	display: flex;
+}
+
+
+/* Code Mirror Edits */
+.CodeMirror {
+	width: 70%;
+	border: 1px solid #ddd;
+	resize: both;
+}
