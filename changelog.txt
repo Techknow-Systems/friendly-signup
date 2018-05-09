@@ -1,0 +1,20 @@
+== Friendly Signup for Wordpress Changelog ==
+
+= 0.1.4 =
+* Current version
+
+= 0.1.3 =
+* Integrated Codemirror for the CSS edit boxes
+* Minified user generated custom CSS files
+
+= 0.1.2 =
+* Working Draft of the Slide In signup box
+
+= 0.1.1 =
+* Working draft of the Popup / Overlay signup. Used in https://uplift.love/dpm-tour
+* Integrated JS Cookie extrenal library
+
+= 0.1.0 =
+* Initial plugin construction using the Wordpress Plugin Boilerplate
+* Tabbed Wordpress Admin interface page
+* Linked to Mailchimp REST API v3 using custom written PHP / JS wrapper
