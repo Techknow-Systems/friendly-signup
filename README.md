@@ -6,7 +6,7 @@ The Friendly Signup plugin inspires users to sign up to your list rather through
 
 Friendly Signup for Wordpress highlights include:
 * Scroll activated slide in sign up boxes that can slide in from any direction.
-* Tacful overlays that can be used as email walls to premium content.
+* Tacftul overlays that can be used as email walls to premium content.
 * Sign up forms that can be used for landing pages.
 * All signup styles can be fully designed and styled through the Wordpress Admin pages.
 * Full control of where the sign up forms appear on your website.
@@ -15,15 +15,17 @@ Friendly Signup for Wordpress highlights include:
 
 The Friendly Signup for Wordpress plugin is built using the [Wordpress Plugin Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
 
-## Instalation
+## Installation
 * Download the project ZIP file using the green 'Clone or download' button above
 * Upload the zip file to the Wordpress Admin
 * Activate
 * Configure settings.
 * You are reday to go!
 
+Friendly Signup for Wordpress requires Wordpress 3.5+ and is tested up to 4.9.5
+
 ## Current Version
-The current version of Friendly Signup for Wordpress is 0.1.4. as of May 2018. This is a working draft, so not all funnctionality is currently implemented. A plugin road map will be available soon.
+The current version of Friendly Signup for Wordpress is 0.1.4. as of May 2018. This is a working draft, so not all functionality is currently implemented. A plugin road map will be available soon.
 
 ## External Libraries
 Libraries currently in use are:
@@ -39,3 +41,6 @@ Friendly Signup for Wordpress is written by [Shaa Taylor](https://www.linkedin.c
 
 ## Documentation, FAQs and more
 At present, documentation is on the road map. Feel free to [contact me](mailto:shaa@techknowsystems.com.au) if you have any questions / suggestions / ideas or you wish to collaborate.
+
+## Support This Project
+Please support Friendly Signup for Wordpress [here](paypal.me/techknowsystems)
